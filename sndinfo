@@ -163,34 +163,74 @@ $alias world/rocketfar world/explode
 
 // thundy bustie
 // they don't call it the thunder buster for nothing
-$random weapons/plasmas {weapons/lightningstrike1 weapons/lightningstrike2 weapons/lightningstrike3 weapons/lightningstrike4}  $limit weapons/plasmas 0 $volume weapons/plasmas 1.2
-weapons/plasidle "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_HeatSinkHiss.wav"  $limit weapons/plasidle 4
-weapons/plasswitch "Sounds/Weapons/Thunder Buster Beam Projector/pso1_illumination_switch.wav" $volume weapons/plasswitch 4
-weapons/plasopen "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BatteryDead.wav"
-weapons/plasload "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BatteryIn.wav"
-weapons/plasclose "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BreachClose.wav"
-weapons/plasclose2 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_CapacitorCharged.wav"
+// Everyone say thank you mick gordon (and N.J Apostol)
+$random weapons/plasmas {weapons/lightningstrike1 weapons/lightningstrike2 weapons/lightningstrike3 weapons/lightningstrike4}  $limit weapons/plasmas 4 $volume weapons/plasmas 1
+//random plasidle
+$random weapons/plasidle {weapons/plasidle1 weapons/plasidle2 weapons/plasidle3 weapons/plasidle4}	$limit weapons/plasidle 4	$volume weapons/plasidle 0.33
+weapons/plasidle1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_01.wav"
+weapons/plasidle2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_02.wav"
+weapons/plasidle3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_03.wav"
+weapons/plasidle4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_04.wav"
+weapons/plasswitch "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_shot_trigger.wav" $volume weapons/plasswitch 4
+
+//random plasopen
+$random weapons/plasopen {weapons/plasopen01 weapons/plasopen02 weapons/plasopen03 weapons/plasopen04}
+weapons/plasopen01 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_batterylow_01.wav"
+weapons/plasopen02 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_batterylow_02.wav"
+weapons/plasopen03 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_batterylow_03.wav"
+weapons/plasopen04 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_batterylow_04.wav"
+
+//dude youre not gonna fucking believe it
+$random weapons/plasload {weapons/plasload01 weapons/plasload02 weapons/plasload03 weapons/plasload04}
+weapons/plasload01 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_on_01.wav"
+weapons/plasload02 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_on_02.wav"
+weapons/plasload03 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_on_03.wav"
+weapons/plasload04 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_on_04.wav"
+
+//Remind me to add the other three mech_maintenance_on tracks
+//done
+
+weapons/plasbeep1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_UI_flash_01.wav"
+weapons/plasbeep2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_UI_flash_02.wav"
+weapons/plasbeep3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_UI_flash_03.wav"
+
+$random weapons/plasclose2 {weapons/plasclose201 weapons/plasclose202 weapons/plasclose203 weapons/plasclose204}
+weapons/plasclose201 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_01.wav"
+weapons/plasclose202 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_02.wav"
+weapons/plasclose203 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_03.wav"
+weapons/plasclose204 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_04.wav"
+
 weapons/plascrack   dsthubm   $limit weapons/plascrack 0
 $random weapons/plasmaf {weapons/thuncharge1 weapons/thuncharge2 weapons/thuncharge3 weapons/thuncharge4}
+$random weapons/plasclose {weapons/plasbeep1 weapons/plasbeep2 weapons/plasbeep3}
 
-weapons/thuncharge1 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_1.wav"
-weapons/thuncharge2 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_2.wav"
-weapons/thuncharge3 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_3.wav"
-weapons/thuncharge4 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_4.wav"
+weapons/thuncharge1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_V2_01.wav"
+weapons/thuncharge2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_V2_02.wav"
+weapons/thuncharge3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_V2_03.wav"
+weapons/thuncharge4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_V2_04.wav"
 
-weapons/lightningstrike1 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 1.wav"
-weapons/lightningstrike2 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 2.wav"
-weapons/lightningstrike3 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 3.wav"
-weapons/lightningstrike4 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 4.wav"
+//Detonator mode should be loud as fuck. You are firing a (handheld) version of an orbital cannon. It literally shoots lighting.
+weapons/lightningstrike1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_01.wav"
+weapons/lightningstrike2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_02.wav"
+weapons/lightningstrike3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_03.wav"
+weapons/lightningstrike4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_04.wav"
 
-$alias misc/zap weapons/plasmas $volume misc/zap 0.4
-$alias misc/zap2 weapons/plasmas $volume misc/zap2 0.4
-$alias misc/zap3 weapons/plasmas $volume misc/zap3 0.4
-misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/arccrackle.wav" $volume misc/arccrackle 0.4
-caco/arczap "Sounds/Weapons/Thunder Buster Beam Projector/Loops_Electric_SmallSparks_06.wav" $volume caco/arczap 0.4
-$alias caco/zap caco/arczap $volume caco/zap 0.4
-$alias caco/zap2 caco/arczap $volume caco/zap2 0.4
-$alias caco/zap3 caco/arczap $volume caco/zap3 0.4
+$alias misc/zap weapons/plasmas $volume misc/zap 0.3
+$alias misc/zap2 weapons/plasmas $volume misc/zap2 0.3
+$alias misc/zap3 weapons/plasmas $volume misc/zap3 0.3
+misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparkles.wav" $volume misc/arccrackle 0.3
+caco/arczap1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_01.wav"	$volume caco/arczap1 0.3
+caco/arczap2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_02.wav"	$volume caco/arczap2 0.3
+caco/arczap3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_03.wav"	$volume caco/arczap3 0.3
+caco/arczap4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_04.wav"	$volume caco/arczap4 0.3
+
+//randomzapsound
+$random caco/zap {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
+$random caco/zap2 {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
+$random caco/zap3 {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
+$volume caco/zap 0.3
+$volume caco/zap2 0.3
+$volume caco/zap3 0.3
 
 $alias world/tbfar world/riflefar $volume world/tbfar 0.272
 $alias world/tbfar2 world/shotgunfar $volume world/tbfar2 0.272

@@ -24,3 +24,4 @@ Sounds:
 - Glowstick sounds: Kris
 - Blursphere sounds: uwusphere
 - Weapon Sounds: H3VR, EFT for far sounds
+- All thunderbuster sounds + caco zap: Lunar Software
