@@ -200,7 +200,7 @@ weapons/plasclose202 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_main
 weapons/plasclose203 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_03.wav"
 weapons/plasclose204 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_04.wav"
 
-weapons/plascrack   dsthubm   $limit weapons/plascrack 0
+weapons/plascrack	"Sounds/Weapons/Thunder Buster Beam Projector/plascrack.wav"	$limit weapons/plascrack 1
 $random weapons/plasmaf {weapons/thuncharge1 weapons/thuncharge2 weapons/thuncharge3 weapons/thuncharge4}
 $random weapons/plasclose {weapons/plasbeep1 weapons/plasbeep2 weapons/plasbeep3}
 
@@ -219,21 +219,21 @@ $alias misc/zap weapons/plasmas $volume misc/zap 0.3
 $alias misc/zap2 weapons/plasmas $volume misc/zap2 0.3
 $alias misc/zap3 weapons/plasmas $volume misc/zap3 0.3
 misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparkles.wav" $volume misc/arccrackle 0.3
-caco/arczap1 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_01.wav"	$volume caco/arczap1 0.3
-caco/arczap2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_02.wav"	$volume caco/arczap2 0.3
-caco/arczap3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_03.wav"	$volume caco/arczap3 0.3
-caco/arczap4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_internal_maintenance_off_04.wav"	$volume caco/arczap4 0.3
+
+// everybody say thank you perfect random sound team (They have no credits anywhere)
+caco/arczap1 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_01.wav"	$volume caco/arczap1 0.3
+caco/arczap2 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_02.wav"	$volume caco/arczap2 0.3
+caco/arczap3 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_03.wav"	$volume caco/arczap3 0.3
 
 //randomzapsound
-$random caco/zap {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
-$random caco/zap2 {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
-$random caco/zap3 {caco/arczap1 caco/arczap2 caco/arczap3 caco/arczap4}
+$random caco/zap {caco/arczap1 caco/arczap2 caco/arczap3}
+$random caco/zap2 {caco/arczap1 caco/arczap2 caco/arczap3}
+$random caco/zap3 {caco/arczap1 caco/arczap2 caco/arczap3}
 $volume caco/zap 0.3
 $volume caco/zap2 0.3
 $volume caco/zap3 0.3
 
-$alias world/tbfar world/riflefar $volume world/tbfar 0.272
-$alias world/tbfar2 world/shotgunfar $volume world/tbfar2 0.272
+world/tbfar	 "Sounds/Weapons/Thunder Buster Beam Projector/tbfar.wav"	alias world/tbfar2 world/tbfar
 
 // Liberal Rifle
 // This kinda sounds like shit but idrc, same goes for the ZM reload
