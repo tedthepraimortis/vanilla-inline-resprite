@@ -35,7 +35,7 @@ TAG_DERP="Volt \'D.E.R.P.\' robot";
 TAG_HERP="Volt \'H.E.R.P.\' robot";
 
 TAG_PISTOLAMMO="9x33mm round";
-TAG_REVOLVERAMMO=".355 Round";
+TAG_REVOLVERAMMO=".355 round";
 TAG_SHOTGUNSHELLS="12-Gauge Buckshot shells";
 TAG_426AMMO="4.26mm round";
 TAG_7MMAMMO="7.76x54mm round";
@@ -420,6 +420,9 @@ TAG_SUPERSTIM                           = "High-Yield Super Stimpack";
 TAG_SUPPLYBEACON                        = "Volt Supply Beacon";
 TAG_TELEPORTER                          = "Volt Portable Teleporter";
 
+TAG_GREENLINE = "\'Greenline\' Thermal Lance";
+TAG_MODEST = "\'Modest\' railgun revolver";
+
 TAG_RAWBRASS              = "High-Purity Brass";
 TAG_RAWFUEL               = "Solid Fuel";
 TAG_RAWLEAD               = "High-Density Lead";
@@ -469,3 +472,49 @@ TAG_TROCAZ = "\'Trocaz\' 4.26mm Survival Rifle";
 TAG_KAKAPO = "\'Kakapo\' Eather Pistol";
 TAG_POCHARD = "\'Pochard\' 8.28mm LMG";
 TAG_POCHARDDRUM = "\'Pochard\' Drum Magazine";
+
+// Corporate Armor
+TAG_CORPORATEARMOUR               = "AGM Corporate Armor";
+MERCH_TAG_CORPORATEARMOUR         = "AGM Corporate Armor";
+
+// Radtech Item Pack
+TAG_FIELDMEDICKIT = "AGM Improvised Medical Kit";
+TAG_FIRSTAIDSPRAY = "Volt First Aid Spray";
+TAG_HALFPACK = "School Backpack";
+TAG_RADBOOTS = "Environmental Hazard Protection Boots";
+TAG_JACKET = "Improvised Leather Jacket";
+TAG_JACKETWORN = "Improvised Leather Jacket (worn)";
+TAG_RADIRADIO = "AGM Pocket Radio";
+
+// Radtech Weapon Pack
+TAG_SNUBNOSE = "\'Dineobellator\' Snub-Nose Revolver";
+TAG_SINGLEACTREV = "\'Sauronitholestes\' Single-Action Revolver";
+TAG_DM93PLASMA = "Volt DM-93 Plasma Rifle";
+TAG_OBROZZ = "\'Obrozz\' Short-Barreled Rifle";
+TAG_MINERVA = "\'Minerva\' 9x33mm Chaingun";
+TAG_LESSLETHALHUNTER = "Bernoulli M1053 Less-Lethal Shotgun";
+TAG_JUANPIS = "\'Juan\' Horseshoe Pistol";
+TAG_JUANAUTO = "\'Juan\' Horseshoe Pistol (select-fire)";
+TAG_HACKEDZM = "Volt ZM-66 Assault Rifle";
+TAG_HZMSEMI = "Volt ZM-66 Assault Rifle (Semi)";
+TAG_HZMREGULAR = "Volt ZM66 Assault Rifle (no GL)";
+TAG_HZMIRREGULAR = "Volt ZM66 Assault Rifle (semi with GL)";
+TAG_GOLDSINGLEACTION = "\'Acheroraptor\' Single-Action Revolver";
+TAG_EXPLOSIVESHOTGUN = "Bernoulli Explosive Hunter";
+TAG_DOOMHUNT = "\'Doomed\' Hunter V-Choke Shotgun";
+TAG_COMBATSHOTGUN = "Combat Shotgun";
+TAG_10PIS = "10mm \'Delta Elite\' Combat Pistol";
+TAG_10PSLECT = "10mm \'Delta Elite\' Combat Pistol (Select Fire)";
+TAG_SIGCOW = "M-211 \'Sig-Cow\' 10mm Carbine";
+TAG_STEN = "STEN Mk.2(S) Silenced SMG";
+TAG_C19 = "Volt M1911A1";
+TAG_HPUPPY = "\'Hush Puppy\' Silenced Pistol";
+TAG_STUNGUN = "\'ShokStop\' Stun Gun";
+TAG_PHAZER = "\'Phazer\' Energy Pistol";
+TAG_FRAGCANNON = "\'Frag Cannon\' Frag Grenade Launcher";
+TAG_TT33 = "TT-33 \'Tokarev\' Pistol";
+TAG_TT33_AUTO = "TT-33 7.62mm Pistol (select-fire)";
+TAG_PPSH41 = "PPSh-41 \'Papasha\' SMG";
+TAG_S99 = "Savage-99 Lever-Action Rifle";
+TAG_FP45 = "FP-45 \'Liberator\' Pistol";
+TAG_DUCKHUNT = "\'Duck Hunter\' 20-gauge Shotgun";
