@@ -233,19 +233,20 @@ $volume caco/zap 0.3
 $volume caco/zap2 0.3
 $volume caco/zap3 0.3
 
-world/tbfar	 "Sounds/Weapons/Thunder Buster Beam Projector/tbfar.wav"	alias world/tbfar2 world/tbfar
+world/tbfar	 "Sounds/Weapons/Thunder Buster Beam Projector/tbfar.wav"
+$alias world/tbfar2 world/tbfar
 
 // Liberal Rifle
 // This kinda sounds like shit but idrc, same goes for the ZM reload
 // I don't like this gun at all so it's fitting. - [Ted]
 $random weapons/bigrifle {weapons/libfire1 weapons/libfire2 weapons/libfire3 weapons/libfire4}
-weapons/libchamber "Sounds/Weapons/ZM-7 Liberator/G3_BoltSlideForward.wav"
-weapons/libchamber2 "Sounds/Weapons/ZM-7 Liberator/G3_HandleUp"
-weapons/libchamber2a "Sounds/Weapons/ZM-7 Liberator/G3_HandleDown"
-weapons/libfire1 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_1.wav"
-weapons/libfire2 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_2.wav"
-weapons/libfire3 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_3.wav"
-weapons/libfire4 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_4.wav"
+weapons/libchamber "Sounds/Weapons/Liberator/G3_BoltSlideForward.wav"
+weapons/libchamber2 "Sounds/Weapons/Liberator/G3_HandleUp.wav"
+weapons/libchamber2a "Sounds/Weapons/Liberator/G3_HandleDown.wav"
+weapons/libfire1 "Sounds/Weapons/Liberator/Tactical8400_Shot_1.wav"
+weapons/libfire2 "Sounds/Weapons/Liberator/Tactical8400_Shot_2.wav"
+weapons/libfire3 "Sounds/Weapons/Liberator/Tactical8400_Shot_3.wav"
+weapons/libfire4 "Sounds/Weapons/Liberator/Tactical8400_Shot_4.wav"
 weapons/libclick  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
 weapons/libclick2  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
 world/bigriflefar "Sounds/Weapons/Volt ZM66/ak74_raw_far2.wav" $volume world/bigriflefar 0.272
