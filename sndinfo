@@ -66,15 +66,15 @@ weapons/dinoshot1 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_1.wav"
 weapons/dinoshot2 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_2.wav"
 weapons/dinoshot3 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_3.wav"
 weapons/dinoshot4 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_4.wav"
-weapons/deinoblast2 "Sounds/weapons/Deinonychus Revolver/grach_fire_outdoor_distant.wav"
+weapons/deinoblast2 "Sounds/weapons/Deinonychus Revolver/Volcanic_Shot_1.ogg"
 weapons/deinoclick "Sounds/weapons/Deinonychus Revolver/Rhino_HammerHit.wav"
 weapons/deinoeject "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_EjectRounds_1.wav"
 weapons/deinocyl "Sounds/weapons/Deinonychus Revolver/RollingBlock_PreFire.wav"
 $random weapons/deinoload {weapons/dinoload1 weapons/dinoload2 weapons/dinoload3 weapons/dinoload4} $volume weapons/deinoload 2.0
-weapons/dinoload1 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small1.wav"
-weapons/dinoload2 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small2.wav"
-weapons/dinoload3 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small3.wav"
-weapons/dinoload4 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small4.wav"
+weapons/dinoload1 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small_1.wav"
+weapons/dinoload2 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small_2.wav"
+weapons/dinoload3 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small_3.wav"
+weapons/dinoload4 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small_4.wav"
 weapons/deinoopen "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_BreachOpen.wav"
 weapons/deinoclose "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_BreachClose.wav"
 
@@ -148,7 +148,8 @@ $random weapons/vulctryfix {weapons/vulcshunt weapons/vulcforcemag}
 $random weapons/vulctryfix2 {weapons/vulcshunt weapons/vulcopen1 weapons/vulcumag weapons/vulcforcemag weapons/vulcextract weapons/bigcrack weapons/pocket}
 
 $alias world/vulcfar world/riflefar
-$alias world/herpfar world/riflefar $volume world/herpfar 0.2272
+$alias world/herpfar world/riflefar 
+$volume world/herpfar 0.2272
 
 // RL and Bloopie
 weapons/rockignite "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/RPG7_shot_front_1.wav"
@@ -215,15 +216,22 @@ weapons/lightningstrike2 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_
 weapons/lightningstrike3 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_03.wav"
 weapons/lightningstrike4 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparks_close_04.wav"
 
-$alias misc/zap weapons/plasmas $volume misc/zap 0.3
-$alias misc/zap2 weapons/plasmas $volume misc/zap2 0.3
-$alias misc/zap3 weapons/plasmas $volume misc/zap3 0.3
-misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparkles.wav" $volume misc/arccrackle 0.3
+$alias misc/zap weapons/plasmas 
+$volume misc/zap 0.3
+$alias misc/zap2 weapons/plasmas 
+$volume misc/zap2 0.3
+$alias misc/zap3 weapons/plasmas 
+$volume misc/zap3 0.3
+misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/CAT_shot_sparkles.wav" 
+$volume misc/arccrackle 0.3
 
 // everybody say thank you perfect random sound team (They have no credits anywhere)
-caco/arczap1 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_01.wav"	$volume caco/arczap1 0.3
-caco/arczap2 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_02.wav"	$volume caco/arczap2 0.3
-caco/arczap3 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_03.wav"	$volume caco/arczap3 0.3
+caco/arczap1 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_01.wav"	
+$volume caco/arczap1 0.3
+caco/arczap2 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_02.wav"	
+$volume caco/arczap2 0.3
+caco/arczap3 "Sounds/enemies/caco/SFX_Bullet_Effect_Chain_Lightning_Shoot_03.wav"	
+$volume caco/arczap3 0.3
 
 //randomzapsound
 $random caco/zap {caco/arczap1 caco/arczap2 caco/arczap3}
@@ -274,7 +282,7 @@ weapons/bossfire4 "Sounds/Weapons/Mk. IV Boss/Kar98k_Shot_4.wav"
 // frag
 weapons/fragpinin "Sounds/Weapons/Grenade/Grenade_PinPull_1.wav"
 $alias weapons/fragpinout weapons/fragpinin
-weapons/fragspoonoff "Sounds/Weapons/Grenade/Grenade_Fuze_StrikerActive_1.wav"
+weapons/fragspoonoff "Sounds/Weapons/Grenade/Grenade_Fuze_StrikerActivate_1.wav"
 weapons/grenopen "Sounds/Weapons/Grenade/grenade_open.wav"
 
 $random misc/w_pkup {wep/pickup1 wep/pickup2 wep/pickup3 wep/pickup4 wep/pickup5}
@@ -362,13 +370,16 @@ weapons/aurypull "Sounds/Weapons/Peppergrinder/Auroch/SAA_PreFire.ogg"
 weapons/auryrotate "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineCylinderAdvance.wav"
 weapons/auryopen  "Sounds/Weapons/Peppergrinder/Auroch/SAA_BreachOpen.wav"
 weapons/auryclose  "Sounds/Weapons/Peppergrinder/Auroch/SAA_BreachClose.wav"
-weapons/auryeject "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound.wav"
+$random weapons/auryeject {weapons/auryeject1 weapons/auryeject2 weapons/auryeject3}
+weapons/auryeject1 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_1.ogg"
+weapons/auryeject2 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_2.ogg"
+weapons/auryeject3 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_3.ogg"
 weapons/auryempty "Sounds/Weapons/Peppergrinder/Auroch/SAA_HammerHit.wav"
 
 $random weapons/auryinsert {weapons/auryinsert1 weapons/auryinsert2 weapons/auryinsert3}
-weapons/auryinsert1 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound1.ogg"
-weapons/auryinsert2 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound2.ogg"
-weapons/auryinsert3 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound3.ogg"
+weapons/auryinsert1 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_1.ogg"
+weapons/auryinsert2 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_2.ogg"
+weapons/auryinsert3 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound_3.ogg"
 
 $random weapons/auryshellinsert {weapons/auryshellinsert1 weapons/auryshellinsert2 weapons/auryshellinsert3 weapons/auryshellinsert1}
 
@@ -399,9 +410,9 @@ weapons/lotusload2 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRoun
 weapons/lotusload3 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_3.ogg"
 weapons/lotusload4 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_4.ogg"
 $random weapons/lotuseject {weapons/lotuseject1 weapons/lotuseject2 weapons/lotuseject3}
-weapons/lotuseject1 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_1.ogg"
-weapons/lotuseject2 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_2.ogg"
-weapons/lotuseject3 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_3.ogg"
+weapons/lotuseject1 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRounds_1.ogg"
+weapons/lotuseject2 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRounds_2.ogg"
+weapons/lotuseject3 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRounds_3.ogg"
 weapons/lotusclick "Sounds/Weapons/Peppergrinder/Lotus/RevolverF_Prefire.ogg"
 weapons/lotuscyl "Sounds/Weapons/Peppergrinder/Lotus/M1895Nagant_MagazineCylinderAdvance.ogg"
 
@@ -515,7 +526,7 @@ weapons/greelyshot5 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpu
 weapons/greelyshot6 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_02.wav"
 weapons/greelyshot7 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_03.wav"
 weapons/greelyshot8 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_04.wav"
-weapons/greelyblast "Sounds/Weapons/Peppergrinder/Greely/Bot-ShotgunA_Shot_OutsideEnclosed_Far_1.ogg"
+weapons/greelyblast "Sounds/Weapons/Peppergrinder/Greely/Bot_ShotgunA_Shot_OutsideEnclosed_Far_1.ogg"
 $alias weapons/greelyreload weapons/huntreload
 weapons/greelyrackup "Sounds/Weapons/Peppergrinder/Greely/ShotgunPumpActionF_HandleForwardShell.ogg"
 weapons/greelyrackdown "Sounds/Weapons/Peppergrinder/Greely/ShotgunPumpActionF_HandleBackShell.ogg"
@@ -546,10 +557,10 @@ weapons/zm94magout "Sounds/Weapons/Peppergrinder/ZM94/M107_MagazineOut.ogg"
 weapons/zm94magin "Sounds/Weapons/Peppergrinder/ZM94/M107_MagazineOut.ogg"
 weapons/zm94click "Sounds/Weapons/Peppergrinder/ZM94/M107_Safety.ogg"
 weapons/zm94click2 "Sounds/Weapons/Peppergrinder/ZM94/M107_HammerHit.ogg"
-$alias weapons/zm94chamber2 "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBackHeld.ogg"
-$alias weapons/zm94chamber2a "Sounds/Weapons/Peppergrinder/ZM94/BoltSlideForward.ogg"
-$alias weapons/zm94boltback "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBack.ogg"
-$alias weapons/zm94boltforw "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideForward.ogg"
+weapons/zm94chamber2 "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBackHeld.ogg"
+weapons/zm94chamber2a "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideForward.ogg"
+weapons/zm94boltback "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBack.ogg"
+weapons/zm94boltforw "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideForward.ogg"
 
 // PG-667 DMR
 $random weapons/dmrfire {weapons/dmrfire1 weapons/dmrfire2 weapons/dmrfire3 weapons/dmrfire4}
@@ -562,24 +573,6 @@ weapons/dmrmagin "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_MagazineIn.ogg"
 weapons/dmrboltback "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_BoltSlideBackHeld.ogg"
 weapons/dmrboltforward "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_BoltSlideForwardHeld.ogg"\
 
-// Mauler
-$alias weapons/maulerfwoosh weapons/bfgfwoosh
-$alias weapons/maulidle weapons/plasidle
-$alias weapons/maulopen weapons/plasopen
-$alias weapons/maulload weapons/plasload
-$alias weapons/maulcharge weapons/bfgcharge
-$alias weapons/maulf weapons/bfgf
-$alias weapons/maulclose weapons/plasclose
-$alias weapons/maulclose2 weapons/plasclose2
-$alias weapons/maulsf weapons/plasmaf
-$alias weapons/maulfar weapons/bfgfar
-$alias weapons/maulx weapons/bfgx
-$limit weapons/maulx 0
-$alias weapons/maulsprayfire weapons/bfgfwoosh
-$volume weapons/maulx 0.15
-$alias weapons/maultx weapons/bfgx
-
-
 // Melonades
 
 // this thing does not need a beefier explode sound mine's already overkill - [Ted]
@@ -589,8 +582,21 @@ $alias mg13/explode world/explode
 //stone/impact 
 
 // the gloppy
-$alias misc/gibbed misc/gibbssss
-$random misc/gibbssss {
+$random misc/gibbed {
+	misc/jointbreak_1
+	misc/jointbreak_2
+	misc/jointbreak_3
+	misc/jointbreak_4
+	misc/jointexplode_1
+	misc/jointexplode_2
+	misc/jointexplode_3
+	misc/jointexplode_4
+	misc/jointexplode_5
+	misc/jointsever_1
+	misc/jointsever_2 
+	misc/jointsever_3 
+	misc/jointsever_4 
+	misc/jointsever_5 
 	misc/jointbreak_1
 	misc/jointbreak_2
 	misc/jointbreak_3
