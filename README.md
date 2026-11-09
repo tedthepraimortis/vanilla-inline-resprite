@@ -12,6 +12,7 @@ If there's something you feel is deserving of being credited, please let me know
 - Palettes modified from Wartrophies, Guncaster and BTSX.
 - Blurdesaturate.fp from Icarus' resprite.
 - Dots from Ace's resprite.
+- TROG sprites originally by TG5 in their edit of PB's Modern Weapons resprite
 
 Sounds:
 - DSSECRET: Penumbra: Black Plague
