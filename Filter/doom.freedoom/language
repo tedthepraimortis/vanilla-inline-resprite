@@ -369,6 +369,75 @@ TAG_MICROCELL = "12v Micro-Battery";
 
 // Minor changes to have addon weapons be named in a stylistically similar manner to the vanilla ones. Colon three. - [Tavi & Ted]
 
+// Peppergrinder
+
+PEPPER_TAG_BASTARD = "\'Bastardized\' A-426c Carbine";
+
+PEPPER_TAG_BOXCANNON = "BC-9c Machine Pistol";
+PEPPER_TAG_9MCLIP = "9x33mm stripper clip";
+
+PEPPER_TAG_FULGUR = "FLMG-72 \'Fulgur\' Laser Machinegun";
+
+PEPPER_TAG_GREELY = "SPOS-E17 Short-Barreled Shotgun";
+
+PEPPER_TAG_ILIB = "ZM-7 \'Liberator\' Battle Rifle";
+
+PEPPER_TAG_LOTUS = "MTT-138-S \'Hibiscus\' Revolving Rifle";
+
+PEPPER_TAG_ODDBALL = "\'Oddball\' Energy PDW";
+
+PEPPER_TAG_OTIS = "\'Strix\' .500 S&W revolver";
+
+PEPPER_TAG_RUBYMASER = "Rubicon AEF-322c Microwave Laser";
+
+PEPPER_TAG_TROG = "A-426c Assault Carbine";
+PEPPER_TAG_TROGMAG = "A-426c 30-round magazine";
+
+PEPPER_TAG_VERA = "M764 SAW \'Vera\'";
+
+PEPPER_TAG_WISEAU = "WIS-14 Pulse-Plasma Projector";
+
+PEPPER_TAG_BIG9MMAG = "BreakerTek 50rnd 9mm NDM Magazine"
+
+PEPPER_PICKUP_BASTARD = "You found the Wejherowo \'Bastardized\' A-426c Carbine! What a crude thing...";
+
+PEPPER_PICKUP_BOXCANNON_NORMAL = "You got the BC-9c Machine Pistol!";
+PEPPER_PICKUP_EL_CAPITAN = "You discovered an El Capitan. Watch out for wolves.";
+PEPPER_PICKUP_BOXCANNON_THEWORKS = " With the works.";
+PEPPER_PICKUP_BOXCANNON_LEON = " Leon's Choice!";
+PEPPER_PICKUP_BOXCANNON_FULLRIFLE = " Full Assault-Carbine Configuration.";
+PEPPER_PICKUP_BOXCANNON_CHICAGO = " Chicago Setup.";
+PEPPER_PICKUP_BOXCANNON_STOCK = " Complete with a Sturmsoldat stock.";
+PEPPER_PICKUP_BOXCANNON_MAG = " With double the magazine.";
+PEPPER_PICKUP_BOXCANNON_BARREL = " With a carbine-style barrel.";
+PEPPER_PICKUP_9MCLIP = "Picked up a 9x33mm Parumpudicum stripper clip.";
+
+PEPPER_PICKUP_FULGUR = "You got the Volt FLMG-72 \'Fulgur\' Laser Machinegun!";
+
+PEPPER_PICKUP_GREELY = "You got the SPOS-E17 short-barreled shotgun!";
+
+PEPPER_PICKUP_ODDBALL = "You found the \'Oddball\' energy PDW!";
+
+PEPPER_PICKUP_OTIS = "You got the \'Strix\' .577 S&S revolver!";
+
+PEPPER_PICKUP_RUBYMASER_NORMAL = "You got the Rubicon AEF-322c Microwave Laser!";
+PEPPER_PICKUP_RUBYMASER_HEAVY = " Oh jeez, it's heavy...";
+PEPPER_PICKUP_RUBYMASER_EJECT = " Eject Model!";
+
+PEPPER_PICKUP_TROG = "Picked up a A-426c Assault Carbine! It's got a nice heft to it.";
+PEPPER_PICKUP_TROGMAG = "Picked up a A-426c 30-round magazine.";
+
+PEPPER_PICKUP_VERA_NORMAL = "Picked up the M764 SAW \'Vera\'!";
+PEPPER_PICKUP_VERA_NEW = " Looks brand new.";
+PEPPER_PICKUP_VERA_BROKEN = ". Eugh, pushing on being completely broken...";
+PEPPER_PICKUP_VERA_BEATEN = ". Looks pretty bad, everything's all worn and smashed up...";
+PEPPER_PICKUP_VERA_WORN = ". Functional, though could use a tune-up.";
+
+PEPPER_PICKUP_WISEAU_NORMAL = "You got the WIS-14 Pulse-Plasma Projector!";
+PEPPER_PICKUP_WISEAU_DOUBLE = " Double-Double Model!";
+PEPPER_PICKUP_WISEAU_CAPACITOR = " Extra Capacitor Model!";
+PEPPER_PICKUP_WISEAU_DOUBLEACTION = " With Double-Action Trigger!";
+
 // 1337Weps
 TAG_AURY = "\'Aurochs\' .451 Revolver";
 TAG_BPX	= "\'BPX\' Pistol-Caliber Carbine";
